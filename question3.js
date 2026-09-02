@@ -11,10 +11,12 @@ function validateUsername(username){
 
 }
 
-console.log(validateUsername("rahim123"));      // Available
-console.log(validateUsername("ab"));             // Too Short
-console.log(validateUsername("a b"));            // Too Short
-console.log(validateUsername("abcd"));           // Available
-console.log(validateUsername("rahim islam"));    // No Space Allowed
-console.log(validateUsername("superadmin99"));   // Reserved Word
-console.log(validateUsername("Admin_Rahim"));    // Reserved Word
+
+
+console.log(validateUsername("rahim123"));      
+console.log(validateUsername("ab"));             
+console.log(validateUsername("a b"));           
+console.log(validateUsername("abcd"));           
+console.log(validateUsername("rahim islam"));    
+console.log(validateUsername("superadmin99"));   
+console.log(validateUsername("Admin_Rahim"));    
