@@ -14,6 +14,8 @@ function getCngFare(distance, isNight = false, waitingMinutes=0){
     
 
 }
+
+
 console.log(getCngFare(2));             
 console.log(getCngFare(1));             
 console.log(getCngFare(5));             

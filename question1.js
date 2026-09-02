@@ -10,6 +10,8 @@ function describeValue (value){
    return `${type} | ${truthiness}`
 }
 
+
+
 console.log(describeValue("hello"))
 console.log(describeValue(""))
 console.log(describeValue(5))

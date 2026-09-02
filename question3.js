@@ -1,5 +1,5 @@
 function validateUsername(username){
-    if(username<4){
+    if(username.length<4){
         return "Too Short";
     }else if(username.includes(" ")){
         return "No Space Allowed";
